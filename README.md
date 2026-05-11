@@ -6,18 +6,6 @@ This project demonstrates the use of Python, OpenCV, and Machine Learning models
 
 ---
 
-## 📌 Project Overview
-
-The objective of this project is to build a car detection system capable of identifying vehicles from images or video streams using Computer Vision algorithms.
-
-The notebook contains:
-- Data preprocessing
-- Image analysis
-- Vehicle detection
-- Visualization of results
-- Object detection workflow
-
-
 ## 📌 Features
 
 - 🚘 Car detection in images
@@ -27,7 +15,6 @@ The notebook contains:
 - 📦 Jupyter Notebook implementation
 - ⚡ Easy to run and modify
 
----
 
 ## 🛠️ Technologies Used
 
@@ -43,7 +30,7 @@ Optional:
 - YOLO
 - Haar Cascades
 
-# 🚀 Installation
+## 🚀 Installation
 
 Clone the repository:
 
@@ -69,9 +56,8 @@ Launch Jupyter Notebook:
 jupyter notebook
 ```
 
----
 
-# ▶️ Usage
+## ▶️ Usage
 
 Open the notebook:
 
@@ -85,9 +71,8 @@ Run all cells to:
 - Detect cars
 - Visualize results
 
----
 
-# 📸 Results
+## 📸 Results
 
 The model detects vehicles and displays bounding boxes around detected cars.
 
@@ -102,7 +87,7 @@ You can add screenshots of your results later.
 
 ---
 
-# 📊 Workflow
+## 📊 Workflow
 
 1. Data Loading
 2. Image Processing
@@ -111,9 +96,8 @@ You can add screenshots of your results later.
 5. Visualization
 6. Performance Evaluation
 
----
 
-# 🧠 Concepts Used
+## 🧠 Concepts Used
 
 - Computer Vision
 - Object Detection
@@ -122,9 +106,8 @@ You can add screenshots of your results later.
 - Bounding Boxes
 - Feature Extraction
 
----
 
-# 📈 Future Improvements
+## 📈 Future Improvements
 
 - Real-time webcam detection
 - YOLOv8 integration
@@ -132,9 +115,8 @@ You can add screenshots of your results later.
 - Speed estimation
 - Web application deployment
 
----
 
-# 📚 Learning Objectives
+## 📚 Learning Objectives
 
 This project was developed to practice:
 - Machine Learning basics
@@ -142,9 +124,8 @@ This project was developed to practice:
 - Python for AI
 - Object Detection workflows
 
----
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome.
 
@@ -154,14 +135,35 @@ Feel free to:
 - Add new features
 - Submit pull requests
 
+
+## 🌐 Connect With Me
+
+<p align="left">
+  <a href="https://github.com/Ghizlane8" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Ghizlane8-181717?style=for-the-badge&logo=github" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/ghizlane-baali-a42505267/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Ghizlane%20Baali-0A66C2?style=for-the-badge&logo=linkedin" />
+  </a>
+
+  <a href="mailto:baali.ghizlane2@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
 ---
 
-# 👩‍💻 Author
+## 👩‍💻 About the Author
 
-Developed by Baali Ghizlane
+**Ghizlane Baali**  
+Data Scientist | Data Analyst & AI Enthusiast
 
----
+Passionate about Artificial Intelligence, Machine Learning, Computer Vision, and Data Analytics.  
+Currently focused on building intelligent systems using Python, OpenCV, Deep Learning, and predictive modeling techniques.
 
-# ⭐ Support
+This project reflects my interest in applying AI technologies to real-world problems through practical and scalable solutions.
+
+## ⭐ Support
 
 If you like this project, give it a star ⭐ on GitHub.
