@@ -1,8 +1,23 @@
-# 🚗 Car Object Detection using Computer Vision
+# 🚗 Car Object Detection using YOLOv8 & Computer Vision
 
-A Computer Vision project for detecting cars in images and videos using Deep Learning and Object Detection techniques.
+A Computer Vision project for detecting cars in images and videos using **YOLOv8**, Deep Learning, and Object Detection techniques.
 
 This project demonstrates the use of Python, OpenCV, and Machine Learning models for real-time vehicle detection and visualization.
+
+---
+
+## 📌 Project Overview
+
+The objective of this project is to build an intelligent vehicle detection system capable of identifying cars from images and video streams using modern Computer Vision and Deep Learning algorithms.
+
+The notebook includes:
+- Data preprocessing
+- Dataset preparation for YOLO format
+- Image analysis
+- Vehicle detection
+- YOLOv8 model training
+- Visualization of predictions
+- Object detection workflow
 
 ---
 
@@ -10,25 +25,46 @@ This project demonstrates the use of Python, OpenCV, and Machine Learning models
 
 - 🚘 Car detection in images
 - 🎥 Vehicle detection in video streams
-- 🧠 Deep Learning / Computer Vision implementation
+- 🧠 YOLOv8 Deep Learning implementation
 - 📊 Visualization of detection results
 - 📦 Jupyter Notebook implementation
 - ⚡ Easy to run and modify
+- 📁 Automatic dataset preparation
+- 🏷️ Bounding box annotation generation
 
+---
 
 ## 🛠️ Technologies Used
 
 - Python
 - OpenCV
 - NumPy
+- Pandas
 - Matplotlib
+- Scikit-learn
+- YOLOv8 (Ultralytics)
 - Jupyter Notebook
 
 Optional:
 - TensorFlow
 - PyTorch
-- YOLO
 - Haar Cascades
+
+---
+
+## 📂 Dataset
+
+The dataset used in this project is available on Kaggle:
+
+🔗 Dataset Link:  
+https://www.kaggle.com/datasets/sshikamaru/car-object-detection
+
+The dataset contains:
+- Car images
+- Bounding box annotations
+- Training and testing samples
+
+---
 
 ## 🚀 Installation
 
@@ -50,12 +86,19 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+Install YOLOv8:
+
+```bash
+pip install ultralytics
+```
+
 Launch Jupyter Notebook:
 
 ```bash
 jupyter notebook
 ```
 
+---
 
 ## ▶️ Usage
 
@@ -66,63 +109,99 @@ tp-car-object-detection.ipynb
 ```
 
 Run all cells to:
-- Load images/videos
-- Process data
+- Load the dataset
+- Prepare YOLO annotations
+- Split training and validation data
+- Train the YOLOv8 model
 - Detect cars
-- Visualize results
+- Visualize predictions
 
+---
+
+## 🧠 YOLOv8 Training
+
+The project uses the **YOLOv8m** model from Ultralytics.
+
+Example training configuration:
+
+```python
+model = YOLO('yolov8m.pt')
+model.train(data='dataset.yaml', epochs=5, batch=32)
+```
+
+Dataset configuration:
+
+```yaml
+path: ./cars
+train: images/train
+val: images/valid
+
+nc: 1
+names: ['car']
+```
+
+---
 
 ## 📸 Results
 
-The model detects vehicles and displays bounding boxes around detected cars.
+The model successfully detects vehicles and generates bounding boxes around detected cars.
 
-Example:
+### Example Result
 
 <img width="708" height="401" alt="image" src="https://github.com/user-attachments/assets/a1b3be5d-ac77-4110-b0b6-f20ea7ded04d" />
-
-
-
-You can add screenshots of your results later.
 
 ---
 
 ## 📊 Workflow
 
-1. Data Loading
-2. Image Processing
-3. Object Detection
-4. Vehicle Recognition
-5. Visualization
-6. Performance Evaluation
+1. Dataset Loading
+2. Data Cleaning & Processing
+3. Train/Validation Split
+4. YOLO Annotation Generation
+5. Dataset Configuration
+6. YOLOv8 Model Training
+7. Vehicle Detection
+8. Prediction Visualization
+9. Performance Evaluation
 
+---
 
 ## 🧠 Concepts Used
 
 - Computer Vision
 - Object Detection
-- Image Processing
 - Deep Learning
+- YOLOv8
+- Image Processing
 - Bounding Boxes
 - Feature Extraction
+- Data Preprocessing
 
+---
 
 ## 📈 Future Improvements
 
 - Real-time webcam detection
-- YOLOv8 integration
-- Traffic analysis
+- Traffic monitoring system
 - Speed estimation
+- Multi-object tracking
 - Web application deployment
+- YOLOv9 integration
+- Model optimization for edge devices
 
+---
 
 ## 📚 Learning Objectives
 
 This project was developed to practice:
-- Machine Learning basics
+- Machine Learning fundamentals
+- Deep Learning workflows
 - Computer Vision techniques
-- Python for AI
-- Object Detection workflows
+- YOLO object detection
+- Python for AI applications
+- Dataset preprocessing and annotation
 
+---
 
 ## 🤝 Contributing
 
@@ -134,6 +213,7 @@ Feel free to:
 - Add new features
 - Submit pull requests
 
+---
 
 ## 🌐 Connect With Me
 
@@ -158,10 +238,13 @@ Feel free to:
 **Ghizlane Baali**  
 Data Scientist | Data Analyst & AI Enthusiast
 
-Passionate about Artificial Intelligence, Machine Learning, Computer Vision, and Data Analytics.  
-Currently focused on building intelligent systems using Python, OpenCV, Deep Learning, and predictive modeling techniques.
+Passionate about Artificial Intelligence, Machine Learning, Computer Vision, and Data Analytics.
+
+Currently focused on building intelligent systems using Python, OpenCV, YOLOv8, Deep Learning, and predictive modeling techniques.
 
 This project reflects my interest in applying AI technologies to real-world problems through practical and scalable solutions.
+
+---
 
 ## ⭐ Support
 
