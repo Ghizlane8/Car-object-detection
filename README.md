@@ -78,12 +78,6 @@ Go to the project folder:
 cd Car-object-detection
 ```
 
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
 Install YOLOv8:
 
 ```bash
