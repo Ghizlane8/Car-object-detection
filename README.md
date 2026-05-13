@@ -19,7 +19,6 @@ The notebook includes:
 - Visualization of predictions
 - Object detection workflow
 
----
 
 ## 📌 Features
 
@@ -32,7 +31,6 @@ The notebook includes:
 - 📁 Automatic dataset preparation
 - 🏷️ Bounding box annotation generation
 
----
 
 ## 🛠️ Technologies Used
 
@@ -50,7 +48,7 @@ Optional:
 - PyTorch
 - Haar Cascades
 
----
+
 
 ## 📂 Dataset
 
@@ -64,7 +62,7 @@ The dataset contains:
 - Bounding box annotations
 - Training and testing samples
 
----
+
 
 ## 🚀 Installation
 
@@ -98,7 +96,7 @@ Launch Jupyter Notebook:
 jupyter notebook
 ```
 
----
+
 
 ## ▶️ Usage
 
@@ -116,7 +114,7 @@ Run all cells to:
 - Detect cars
 - Visualize predictions
 
----
+
 
 ## 🧠 YOLOv8 Training
 
@@ -140,7 +138,7 @@ nc: 1
 names: ['car']
 ```
 
----
+
 
 ## 📸 Results
 
@@ -150,7 +148,7 @@ The model successfully detects vehicles and generates bounding boxes around dete
 
 <img width="708" height="401" alt="image" src="https://github.com/user-attachments/assets/a1b3be5d-ac77-4110-b0b6-f20ea7ded04d" />
 
----
+
 
 ## 📊 Workflow
 
@@ -164,7 +162,7 @@ The model successfully detects vehicles and generates bounding boxes around dete
 8. Prediction Visualization
 9. Performance Evaluation
 
----
+
 
 ## 🧠 Concepts Used
 
@@ -177,7 +175,6 @@ The model successfully detects vehicles and generates bounding boxes around dete
 - Feature Extraction
 - Data Preprocessing
 
----
 
 ## 📈 Future Improvements
 
@@ -189,7 +186,7 @@ The model successfully detects vehicles and generates bounding boxes around dete
 - YOLOv9 integration
 - Model optimization for edge devices
 
----
+
 
 ## 📚 Learning Objectives
 
@@ -201,7 +198,7 @@ This project was developed to practice:
 - Python for AI applications
 - Dataset preprocessing and annotation
 
----
+
 
 ## 🤝 Contributing
 
@@ -213,7 +210,7 @@ Feel free to:
 - Add new features
 - Submit pull requests
 
----
+
 
 ## 🌐 Connect With Me
 
@@ -231,7 +228,7 @@ Feel free to:
   </a>
 </p>
 
----
+
 
 ## 👩‍💻 About the Author
 
@@ -244,7 +241,7 @@ Currently focused on building intelligent systems using Python, OpenCV, YOLOv8, 
 
 This project reflects my interest in applying AI technologies to real-world problems through practical and scalable solutions.
 
----
+
 
 ## ⭐ Support
 
